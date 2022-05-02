@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="12dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/permission_dialog_title"
+        android:text="@string/select_permissions"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/permission_dialog_title">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/lastNameCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:layout_toStartOf="@+id/firstNameCheckBox"
+                android:minHeight="48dp"
+                android:text="@string/last_name"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/firstNameCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:layout_alignStart="@id/vacDateCheckBox"
+                android:minHeight="48dp"
+                android:text="@string/first_name"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/miCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lastNameCheckBox"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:minHeight="48dp"
+                android:text="@string/middle_initial"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/dobCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/firstNameCheckBox"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:layout_alignStart="@id/vacDateCheckBox"
+                android:minHeight="48dp"
+                android:text="@string/date_of_birth"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/patientNumCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/miCheckBox"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:minHeight="48dp"
+                android:text="@string/patient_number"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/vacDoseCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dobCheckBox"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:minHeight="48dp"
+                android:text="@string/vaccine_dose"
+                android:layout_alignStart="@id/vacDateCheckBox"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/productNameCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/patientNumCheckBox"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:minHeight="48dp"
+                android:text="@string/product_name"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/vacDateCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vacDoseCheckBox"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:minHeight="48dp"
+                android:text="@string/vaccination_date"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/siteCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/productNameCheckBox"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:minHeight="48dp"
+                android:text="@string/site_location"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/statusCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vacDateCheckBox"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:minHeight="48dp"
+                android:text="@string/status"
+                android:layout_alignStart="@id/vacDateCheckBox"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/imageCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/statusCheckBox"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:layout_toEndOf="@id/siteCheckBox"
+                android:minHeight="48dp"
+                android:text="@string/id_image"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

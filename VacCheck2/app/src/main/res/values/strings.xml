@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">VacCheck</string>
+    <string name="MainTitle">VAC-CHECK</string>
+    <string name="logoContentDescription">Logo of the app: a magnifying glass with hyperdermic needle</string>
+    <string name="close_button">Button to close dialog box</string>
+    <string name="registerButton">Register</string>
+    <string name="qr_status_code">Create QR</string>
+    <string name="policies">Create Policy</string>
+    <string name="about">About</string>
+    <string name="custom_dialog_title">Vac-Check App</string>
+    <string name="about_app">Vac-Check is a user-centric digital vaccination certification system. The goal of the app is to enable you to make choices about your vaccination information. You should
+        be able to determine who sees your vaccination records and how much of it. The app allows you to create quick and easy permissions to do just that.\n\n For more information: jhopkins2@islander.tamucc.edu
+    </string>
+    <string name="select_permissions">Select Permissions</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="middle_initial">Middle Initial</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="patient_number">Patient Number</string>
+    <string name="vaccine_dose">Vaccine Dose</string>
+    <string name="product_name">Product Name</string>
+    <string name="vaccination_date">Vaccination Date</string>
+    <string name="site_location">Site Location</string>
+    <string name="status">Status</string>
+    <string name="id_image">ID Image</string>
+    <string name="no_permissions_set">You need to set permissions</string>
+    <string name="load_policy">Load Policy</string>
+    <string name="enter_policy_name">Enter policy name</string>
+    <string name="cancel_button">Return</string>
+    <string name="create_button">Create</string>
+    <string name="qr_code">QR Code</string>
+    <string name="warning">No created policies. Create a policy.</string>
+    <string name="scanButton">Scan</string>
+</resources>
